@@ -1,19 +1,10 @@
 import sys,os
-
-#importing Widgtes
 from PyQt5.QtWidgets import *
-
-#importing Engine Widgets
 from PyQt5.QtWebEngineWidgets import *
-
-#importing QtCore to use Qurl
 from PyQt5.QtCore import *
-
 from PyQt5.QtGui import QIcon
 
 basedir = os.path.dirname(__file__)
-
-#main window class (to create a window)-sub class of QMainWindow class
 class Window(QMainWindow):
 
     #defining constructor function
