@@ -25,13 +25,18 @@ class MainWindow(QMainWindow):
     def __init__(self):
         super(MainWindow,self).__init__()
         self.browser = QWebEngineView()
-        self.browser.setUrl(QUrl(defaultURL))
+        self.browser.setUrl(QUrl('index.html'
+        ))
         self.setCentralWidget(self.browser)
         self.showMaximized()
 
-        #Status Bar Stuff
+        #Status Bar Setup
         self.statusBar = QStatusBar()
         self.setStatusBar(self.statusBar)
+        self.bookmarkButton = QPushButton('Bookmarks')
+        self.statusBar.addWidget(self.bookmarkButton)
+        self.bookmarkButton.clicked.connect(self.bookmarksPage)
+
 
         #Navbar Stuff
         navbar = QToolBar()
@@ -63,11 +68,13 @@ class MainWindow(QMainWindow):
 
     def loadUrl(self):
         url = self.searchBar.text()
-        self.statusBar.showMessage('Loading ' + url, 5000)
         self.browser.setUrl(QUrl(url))
 
     def updateUrl(self, url):
         self.searchBar.setText(url.toString())
+
+    def bookmarksPage():
+        pass
 
 
 if __name__ == '__main__':
