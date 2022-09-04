@@ -9,9 +9,11 @@
 ![GitHub](https://img.shields.io/github/license/Owen7000/Python-Web-Browser?style=flat-square)
 
 # 🤟Introducing `Super Search`🤟
-`Super Search` is an opensource web browser made using the PyQT5 library in Python. IT allows you to browse the web more freely.
+`Super Search` is an opensource web browser made using the PyQT5 library in Python. It allows you to browse the web more freely through the use of [MetaViolet](https://essay-reference.herokuapp.com).[^1]
 
 If you like our app and what we are doing, please consider giving us a ⭐ to help us build a stronger community.
+
+[^1]: Metaviolet (Super Search) is provided by [Sonosus](https://github.com/Sonosus)
 
 # 💻 Using `Super Search`
 
