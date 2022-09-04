@@ -24,24 +24,26 @@ Coming Soon
 Coming Soon
 
 # 🏗️ How to Set up `Super Search` for Development?
+`Python 3.9 or higher is required to run the source code`
 
-1. Download the source code
-
-2. Install required dependencies (TBC)
-
-3. Run `main.py`
-
-4. Enjoy
+More Coming Soon
 
 # 🛡️ License
 This project is licensed under the MIT License - see the [`LICENSE`](LICENSE) file for details.
 
 # 🦄 Upcoming Features
+> Please Note, I am developing this in my spare time, as a student, I don't have much, so things will take a while to make!
+> 
 `Super Search` has many planned features for the future. Here are some of the upcoming features we have planned(not in any order),
 
-- Add bookmarks tab
-- Add 3rd party extention support
+- Add bookmarks support
+- Add 3rd party extension support
+- Extension Marketplace for people to share their custom extensions
+- Extension API Documentation
 - App Customisation support
+- Predictive URL Completion
+- Search History
+- User Settings 
 - More added soon
 
 If you think that there is something missing from this list, `Super Search` want's to know! Please create a feature request [from here](https://github.com/Owen7000/Python-Web-Browser/issues/new/choose).
