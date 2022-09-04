@@ -25,7 +25,13 @@ Coming Soon
 
 # 🏗️ How to Set up `Super Search` for Development?
 
-Coming Soon
+1. Download the source code
+
+2. Install required dependencies (TBC)
+
+3. Run `main.py`
+
+4. Enjoy
 
 # 🛡️ License
 This project is licensed under the MIT License - see the [`LICENSE`](LICENSE) file for details.
