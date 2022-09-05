@@ -15,8 +15,14 @@ class extension:
     ext_name: str
     ext_id: str
 
-def report_issue(extension, user_id, username):
+def report_issue(extension, ,displayName, UserID, IssueBody, assignee=None):
     """extension must be the extension dataclass otherwise this will fail"""
-    if inspect.isclass(extension) == False:
-        log.errLog("Extensions Manager", "E-EM-1")
+    if inspect.isclass(extension):
+        repo.create_issue(title="", labels=[repo.get_label("Extension Error Report")], body=IssueBody)
+    elif inspect.isclass(extension) == False:
+        log.errLog("Extensions Manager", "E-EM-1") # E-EM-1 'report_issue' failed due to false paramaters
         break
+    else: 
+        log.errLog("Extensions Manager", "E-EM-0") # E-EM-0 Extension Manager unknown issue. Seek Support.
+        
+    
