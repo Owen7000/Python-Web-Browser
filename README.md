@@ -7,6 +7,7 @@
 <h4 align="center">SuperSearch is a highly available search engine to find any site, anywhere!</h4>
 
 ![GitHub](https://img.shields.io/github/license/Owen7000/Python-Web-Browser?style=flat-square)
+![GitHub all releases](https://img.shields.io/github/downloads/Owen7000/Python-Web-Browser/total?style=flat-square)
 
 # 🤟Introducing `Super Search`🤟
 `Super Search` is an opensource web browser made using the PyQT5 library in Python. It allows you to browse the web more freely through the use of the [MetaViolet](https://essay-reference.herokuapp.com) search engine.[^1]
