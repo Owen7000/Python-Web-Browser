@@ -11,6 +11,7 @@
 ![GitHub forks](https://img.shields.io/github/forks/Owen7000/Python-Web-Browser?style=flat-square)
 ![GitHub Repo stars](https://img.shields.io/github/stars/Owen7000/Python-Web-Browser?style=flat-square)
 [![Gitter](https://badges.gitter.im/Owen7000/community.svg)](https://gitter.im/Owen7000/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+![Discord](https://img.shields.io/discord/1018085241577021491)
 
 # 🤟Introducing `Super Search`🤟
 `Super Search` is an opensource web browser made using the PyQT5 library in Python. It allows you to browse the web more freely through the use of the [MetaViolet](https://essay-reference.herokuapp.com) search engine.[^1]
