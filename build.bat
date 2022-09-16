@@ -1,1 +1,1 @@
-pyinstaller main.py -D -n MetaViolet -w -i icon.ico --add-data="icon.ico;."
+pyinstaller New.py -D -n SuperSearch -w -i icon.ico --add-data="icon.ico;." --add-data="log.py;." --add-data="config.py;." --add-data="MainConfig.ini;."
