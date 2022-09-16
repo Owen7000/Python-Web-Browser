@@ -1,4 +1,5 @@
-import sys, os, configparser, log
+from signal import signal
+import sys, os, configparser, log, win10toast
 from PyQt5.QtCore import *
 from PyQt5.QtGui import *
 from PyQt5.QtWidgets import *
@@ -25,10 +26,10 @@ class MainWindow(QMainWindow):
     def __init__(self):
         super(MainWindow,self).__init__()
         self.browser = QWebEngineView()
-        self.browser.setUrl(QUrl('index.html'
-        ))
+        self.browser.setUrl(QUrl(defaultURL))
         self.setCentralWidget(self.browser)
         self.showMaximized()
+
 
         #Status Bar Setup
         self.statusBar = QStatusBar()
@@ -58,10 +59,13 @@ class MainWindow(QMainWindow):
         homeBtn.triggered.connect(self.home)
         navbar.addAction(homeBtn)
 
+        navbar.setMovable(False)
+
         self.searchBar = QLineEdit()
         self.searchBar.returnPressed.connect(self.loadUrl)
         navbar.addWidget(self.searchBar)
         self.browser.urlChanged.connect(self.updateUrl)
+        QObject.connect(self.ui.webView, signal("linkClicked (const QUrl&)"), self.navigate)
 
     def home(self):
         self.browser.setUrl(QUrl(defaultURL))
@@ -75,6 +79,9 @@ class MainWindow(QMainWindow):
 
     def bookmarksPage():
         pass
+
+    def navigate(url):
+        self.searchBar.setText(url.toString())
 
 
 if __name__ == '__main__':
