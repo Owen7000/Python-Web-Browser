@@ -80,7 +80,7 @@ class MainWindow(QMainWindow):
     def bookmarksPage():
         pass
 
-    def navigate(url):
+    def navigate(self, url):
         self.searchBar.setText(url.toString())
 
 
