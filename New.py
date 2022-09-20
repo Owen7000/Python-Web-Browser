@@ -1,5 +1,6 @@
 from signal import signal
-import sys, os, configparser, log, win10toast
+import sys, os, configparser, log
+from win10toast import ToastNotifier
 from PyQt5.QtCore import *
 from PyQt5.QtGui import *
 from PyQt5.QtWidgets import *
@@ -14,12 +15,16 @@ try:
 except ImportError:
     pass
 
-def RMC():
+def read_user_config():
     #Read Main Config File
     global defaultURL
     config = configparser.ConfigParser()
     config.read('MainConfig.ini')
     defaultURL = config['DEFAULT']['Default_URL']
+
+def desktop_notification():
+    n = ToastNotifier()
+    
 
 
 class MainWindow(QMainWindow):
@@ -65,7 +70,6 @@ class MainWindow(QMainWindow):
         self.searchBar.returnPressed.connect(self.loadUrl)
         navbar.addWidget(self.searchBar)
         self.browser.urlChanged.connect(self.updateUrl)
-        QObject.connect(self.ui.webView, signal("linkClicked (const QUrl&)"), self.navigate)
 
     def home(self):
         self.browser.setUrl(QUrl(defaultURL))
@@ -85,7 +89,7 @@ class MainWindow(QMainWindow):
 
 
 if __name__ == '__main__':
-    RMC()
+    read_user_config
     app = QApplication(sys.argv)
     app.setWindowIcon(QIcon(os.path.join(basedir, 'icon.ico')))
     QApplication.setApplicationName('SuperSearch')
