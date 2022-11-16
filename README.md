@@ -1,64 +1,59 @@
+<h1 align="center" id="title">Super Search</h1>
 
-<p align="center">
-<img src="icon.ico" alt="Logo" width="125">
-</p>
+<p align="center"><img src="https://socialify.git.ci/Owen7000/Python-Web-Browser/image?description=1&amp;descriptionEditable=A%20web%20browser%20made%20with%20python%20and%20the%20PyQT5%20module&amp;forks=1&amp;issues=1&amp;language=1&amp;name=1&amp;owner=1&amp;pattern=Circuit%20Board&amp;pulls=1&amp;stargazers=1&amp;theme=Dark" alt="project-image"></p>
 
-<h2 align="center">Super Search</h2>
-<h4 align="center">SuperSearch is a highly available search engine to find any site, anywhere!</h4>
+<p id="description">Super Search is an opensource web browser made using the PyQT5 library in Python. It allows you to browse the web more freely through the use of the MetaViolet search engine.1 If you like my app and what I am doing please consider giving the project a ⭐ to help me build a stronger community.</p>
 
-![GitHub](https://img.shields.io/github/license/Owen7000/Python-Web-Browser?style=flat-square)
-![GitHub all releases](https://img.shields.io/github/downloads/Owen7000/Python-Web-Browser/total?style=flat-square)
-![GitHub forks](https://img.shields.io/github/forks/Owen7000/Python-Web-Browser?style=flat-square)
-![GitHub Repo stars](https://img.shields.io/github/stars/Owen7000/Python-Web-Browser?style=flat-square)
-[![Gitter](https://badges.gitter.im/Owen7000/community.svg)](https://gitter.im/Owen7000/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
-![Discord](https://img.shields.io/discord/1018085241577021491)
+<p align="center"><img src="https://img.shields.io/github/languages/code-size/Owen7000/Python-Web-Browser?style=flat-square" alt="shields"><img src="https://img.shields.io/github/license/Owen7000/Python-Web-Browser?style=flat-square" alt="shields"><img src="https://img.shields.io/github/downloads-pre/owen7000/Python-Web-Browser/latest/total?style=flat-square" alt="shields"><img src="https://img.shields.io/github/contributors/Owen7000/Python-Web-Browser?style=flat-square" alt="shields"></p>
 
-# 🤟Introducing `Super Search`🤟
-`Super Search` is an opensource web browser made using the PyQT5 library in Python. It allows you to browse the web more freely through the use of the [MetaViolet](https://essay-reference.herokuapp.com) search engine.[^1]
+  
+  
+<h2>🧐 Features</h2>
 
-If you like our app and what we are doing, please consider giving us a ⭐ to help us build a stronger community.
+Here're some of the project's best features:
 
-[^1]: Metaviolet (Super Search) is provided by [Sonosus](https://github.com/Sonosus)
+*   Safe and secure internet browsing
+*   an incognito mode that is actually private
+*   support for developers to add extensions to make your experience easier and more fun
+*   So much more!
 
-# 💻 Using `Super Search`
+<h2>🛠️ Installation Steps:</h2>
 
-Coming Soon
+<p>1. Install</p>
 
-# 🔥 Features 
+```
+Download Python 3.9 or later
+```
 
-Coming Soon
+<p>2. Download</p>
 
-# 🏗️ How to Set up `Super Search` for Development?
-`Python 3.9 or higher is required to run the source code`
+```
+Download source files from Github
+```
 
-More Coming Soon
+<p>3. Run</p>
 
-# 🛡️ License
-This project is licensed under the MIT License - see the [`LICENSE`](LICENSE) file for details.
+```
+python main.py
+```
 
-# 🦄 Upcoming Features
-> Please Note, I am developing this in my spare time, as a student, I don't have much, so things will take a while to make!
-> 
-`Super Search` has many planned features for the future. Here are some of the upcoming features we have planned(not in any order),
+<h2>🍰 Contribution Guidelines:</h2>
 
-- Add bookmarks support
-- Add 3rd party extension support
-- Extension Marketplace for people to share their custom extensions
-- Extension API Documentation
-- App Customisation support
-- Predictive URL Completion
-- Search History
-- User Settings 
-- More added soon
+See CONTRIBUTING.md for details
 
-If you think that there is something missing from this list, `Super Search` want's to know! Please create a feature request [from here](https://github.com/Owen7000/Python-Web-Browser/issues/new/choose).
+  
+  
+<h2>💻 Built with</h2>
 
-# 🤝 Contributions to `Super Search`
+Technologies used in the project:
 
-Any kind of positive contribution is welcome! Please help us grow and develop further by contributing to our project.
+*   Python 3.9
+*   PyQt5 for Python 3.9
 
-If you wish to contribute, you can work on any of the features [listed here](https://github.com/Owen7000/Python-Web-Browser#-upcoming-features) or create one of your own. After adding your code, please send in a pull request so we can review and merge your addition!
+<h2>🛡️ License:</h2>
 
-> Please read [`CONTRIBUTING`](CONTRIBUTING.md) for details on our [`CODE OF CONDUCT`](CODE_OF_CONDUCT.md), and the process for submitting pull requests to us.
+This project is licensed under the GPL-3.0
 
-Thank you and enjoy browsing freely
+<h2>💖Like my work?</h2>
+
+You can contact me at Owen7000@programmer.net
