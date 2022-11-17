@@ -4,7 +4,10 @@
 
 <p id="description">Super Search is an opensource web browser made using the PyQT5 library in Python. It allows you to browse the web more freely through the use of the MetaViolet search engine.1 If you like my app and what I am doing please consider giving the project a ⭐ to help me build a stronger community.</p>
 
-<p align="center"><img src="https://img.shields.io/github/languages/code-size/Owen7000/Python-Web-Browser?style=flat-square" alt="shields"><img src="https://img.shields.io/github/license/Owen7000/Python-Web-Browser?style=flat-square" alt="shields"><img src="https://img.shields.io/github/downloads-pre/owen7000/Python-Web-Browser/latest/total?style=flat-square" alt="shields"><img src="https://img.shields.io/github/contributors/Owen7000/Python-Web-Browser?style=flat-square" alt="shields"></p>
+<p align="center"><img src="https://img.shields.io/github/languages/code-size/Owen7000/Python-Web-Browser?style=flat-square" alt="shields">
+<img src="https://img.shields.io/github/license/Owen7000/Python-Web-Browser?style=flat-square" alt="shields">
+<img src="https://img.shields.io/github/downloads-pre/owen7000/Python-Web-Browser/latest/total?style=flat-square" alt="shields">
+<img src="https://img.shields.io/github/contributors/Owen7000/Python-Web-Browser?style=flat-square" alt="shields"></p>
 
   
   
